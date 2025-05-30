@@ -1,4 +1,5 @@
 name: Incrementador Version
+# Ejecuta esta acción cuando se hace un push al branch "develop"
 on:
   push:
     branches:
