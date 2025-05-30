@@ -18,7 +18,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t luistasayco2004/wallet_metamask:v${{ env.VERSION }} .
+          docker build -t gimenac/wallet_metamask:v${{ env.VERSION }} .
 
       - name: Docker Hub Login
         env:
@@ -28,4 +28,4 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker push luistasayco2004/wallet_metamask:v${{ env.VERSION }}
+          docker push gimenac/wallet_metamask:v${{ env.VERSION }}
