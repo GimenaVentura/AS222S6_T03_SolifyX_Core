@@ -1,5 +1,5 @@
 name: Docker Build and Push
-# Ejecuta esta acción cuando se hace un push al branch "develop"
+# Ejecuta esta acción cuando se hace un push al branch 
 on:
   push:
     branches:
